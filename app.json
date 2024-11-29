@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "controle_despesas",
+    "name": "Gerenciador de Despesas",
     "slug": "controle_despesas",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.viniciusoos.controle_despesas"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b127b771-ed1c-4f37-8db4-a90deb525ff6"
+      }
     }
   }
 }
